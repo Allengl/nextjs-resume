@@ -3,7 +3,7 @@ import './globals.css'
 import './a4.css'
 
 export const metadata: Metadata = {
-  title: "FrankFang's Resume",
+  title: "AllenDeng's Resume",
   viewport: 'width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover',
   other: {
     "X-UA-Compatible": "IE=edge",
