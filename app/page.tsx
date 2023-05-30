@@ -80,19 +80,47 @@ export default function Home() {
             </dd>
           </Education>
           <Title>Projects</Title>
+          <p>All projects preview,code,and live-view are available on <a className='text-[#aca3af]' href='https://deng.gl/'>deng.gl</a></p>
           <Projects>
             <dt>
               <div>
-                <h3>React-Admin</h3>
+                <h3>Leafcoin - V2</h3>
+              </div>
+              <div className="minor">2023</div>
+            </dt>
+            <dd>
+              <List>
+                <li>React, Typescript, UnoCSS, Custom Hooks, Data visualization</li>
+                <li>Second version of personal accounting PWA to record income and spending</li>
+                <li>State is managed using custom hooks</li>
+              </List>
+            </dd>
+            <dt>
+              <div>
+                <h3>Leafcoin - V1</h3>
+              </div>
+              <div className="minor">2022</div>
+            </dt>
+            <dd>
+              <List>
+                <li>Vue, Typescript, Pinia, Routing, SCSS.</li>
+                <li>First version of personal accounting web app to keep track of spending</li>
+                <li>State is managed using Pinia</li>
+                <li>Mobile-first design</li>
+              </List>
+            </dd>
+            <dt>
+              <div>
+                <h3>Gulu UI</h3>
               </div>
               <div className="minor">2021</div>
             </dt>
             <dd>
               <List>
-                <li>React-Admin is a back-end management system based on React and Ant Design.</li>
-                <li>It is a project that I developed in my spare time.</li>
-                <li>It is a project that I developed in my spare time.</li>
-                <li>It is a project that I developed in my spare time.</li>
+                <li>UI Library with Vue and Typescript.</li>
+                <li>Published on NPM and ready to use.</li>
+                <li>Utilized Vue3 composition API</li>
+                <li>Covers 4 basic components: switch,button,dialogue window and tabs</li>
               </List>
             </dd>
           </Projects>
