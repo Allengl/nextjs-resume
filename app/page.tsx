@@ -24,16 +24,16 @@ export default function Home() {
             <dl className="max-w-[10em] [&>dd+dt]:pt-4 [&>dd]:text-xs">
               <dt>Email</dt>
               <dd><a className="border-b-[1px] border-inherit" href="mailto:guolong613@gmail.com">guolong613@gmail.com</a></dd>
-              {/* <dt>LinkedIn</dt>
+              <dt>LinkedIn</dt>
               <dd>
-                <a className="underline" href="https://www.linkedin.com/in/frank-fang-39387847/">
-                  linkedin.com/in/frank-fang-39387847/
+                <a className="underline" href="https://www.linkedin.com/in/guolong-deng-59a67826a/">
+                  https://www.linkedin.com/in/guolong-deng-59a67826a/
                 </a>
-              </dd> */}
+              </dd>
               <dt>GitHub</dt>
               <dd>
                 <a className="underline" href="https://github.com/Allengl">
-                github.com/Allengl
+                  github.com/Allengl
                 </a>
               </dd>
             </dl>
@@ -58,14 +58,14 @@ export default function Home() {
         <main className="px-6 py-4">
           <Title>Profile</Title>
           <Profile>
-          <article>
-            Respectful self-motivator gifted at finding reliable solutions for software issues.
-            Experienced in Front-end development and offering skills in
-            JavaScript, TypeScript, React, Vue
-            Fluent in English
-            Accustomed to working with cross-cultural, global teams.
-            Always committed to deadlines and a high-quality product.
-          </article>
+            <article>
+              Respectful self-motivator gifted at finding reliable solutions for software issues.
+              Experienced in Front-end development and offering skills in
+              JavaScript, TypeScript, React, Vue
+              Fluent in English
+              Accustomed to working with cross-cultural, global teams.
+              Always committed to deadlines and a high-quality product.
+            </article>
           </Profile>
           <Title>Education</Title>
           <Education>
