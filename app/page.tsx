@@ -26,8 +26,8 @@ export default function Home() {
               <dd><a className="border-b-[1px] border-inherit" href="mailto:guolong613@gmail.com">guolong613@gmail.com</a></dd>
               <dt>LinkedIn</dt>
               <dd>
-                <a className="underline" href="https://www.linkedin.com/in/guolong-deng-59a67826a/">
-                  https://www.linkedin.com/in/guolong-deng-59a67826a/
+                <a className="underline" href="https://www.linkedin.com/in/allen-d-59a67826a/">
+                https://www.linkedin.com/in/allen-d-59a67826a/
                 </a>
               </dd>
               <dt>GitHub</dt>
