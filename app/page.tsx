@@ -26,8 +26,9 @@ export default function Home() {
               <dd><a className="border-b-[1px] border-inherit" href="mailto:guolong613@gmail.com">guolong613@gmail.com</a></dd>
               <dt>LinkedIn</dt>
               <dd>
-                <a className="underline" href="https://www.linkedin.com/in/guolong-deng-59a67826a/">
-                  https://www.linkedin.com/in/guolong-deng-59a67826a/
+                <a className="underline" href="https://www.linkedin.com/in/allengl/">
+                  https://www.linkedin.com/in/
+                  allengl/
                 </a>
               </dd>
               <dt>GitHub</dt>
@@ -43,11 +44,9 @@ export default function Home() {
           </Box>
           <Box className="py-4">
             <ul className="list-disc list-inside">
-              <li>JavaScript</li>
               <li>TypeScript</li>
               <li>HTML5 + CSS3</li>
               <li>React + Hooks </li>
-              <li>Vite</li>
               <li>Next.js</li>
               <li>Docker</li>
               <li>Git</li>
@@ -61,7 +60,7 @@ export default function Home() {
             <article>
               Respectful self-motivator gifted at finding reliable solutions for software issues.
               Experienced in Front-end development and offering skills in
-              JavaScript, TypeScript, React, Vue
+              TypeScript, React, TailwindCSS, NextJS, shadcn/ui
               Fluent in English
               Accustomed to working with cross-cultural, global teams.
               Always committed to deadlines and a high-quality product.
@@ -71,7 +70,7 @@ export default function Home() {
           <Education>
             <dt>
               <div>
-                <h3>Wuhan Huaxia University of Technology</h3>
+                <h3>Wuhan University of Technology Huaxia College                </h3>
               </div>
               <div className="minor">2018 - 2022</div>
             </dt>
@@ -80,9 +79,9 @@ export default function Home() {
             </dd>
           </Education>
           <Title>Projects</Title>
-          <p>All projects preview,code,and live-view are available on <a className='text-[#aca3af]' href='https://deng.gl/'>deng.gl</a></p>
+          {/* <p>All projects preview,code,and live-view are available on <a className='text-[#aca3af]' href='https://deng.gl/'>deng.gl</a></p> */}
           <Projects>
-            <dt>
+            {/* <dt>
               <div>
                 <h3>Leafcoin - V2</h3>
               </div>
@@ -122,6 +121,21 @@ export default function Home() {
                 <li>Utilized Vue3 composition API</li>
                 <li>Covers 4 basic components: switch,button,dialogue window and tabs</li>
               </List>
+            </dd> */}
+            <dt>
+              <div>
+                <h3><a href="https://www.hand-china.com/p-hcopilot_aigc.html" target='_blank'>H-AI</a></h3>
+              </div>
+              <div className="minor">2022-2025</div>
+            </dt>
+            <dd>
+              <List>
+                <li>Participated in the development of AI Middle Platform, focusing on AI features and file management modules.</li>
+                <li>Developed AI capabilities such as LLM-based Q&A, summarization, and prompt orchestration for business scenarios.</li>
+                <li>Integrated multiple large language models and optimized prompt strategies to improve response quality.</li>
+                <li>Developed file-related modules such as document upload, preview, and structured data extraction.</li>
+                <li>Collaborated closely with front-end, back-end, and DevOps teams to ensure seamless integration and system stability.</li>
+              </List>
             </dd>
           </Projects>
           <Title>Experience</Title>
@@ -136,7 +150,7 @@ export default function Home() {
             <dd>
               <List>
                 <li>Built and maintained front-end infrastructure such as scaffolding, UI frameworks, and component libraries to ensure the consistency and scalability of the company's web applications.</li>
-                <li>Conducted research and development on new technologies and frameworks, including PWA, Vue.js, and React, and developed strategies to implement them in production environments.</li>
+                <li>Conducted research and development on new technologies and frameworks, including PWA, and ReactJS, and developed strategies to implement them in production environments.</li>
                 <li>Worked on the development and maintenance of the company's CRM system, which involved collaborating with cross-functional teams to ensure the application's robustness, scalability, and responsiveness.</li>
                 <li>Conducted code reviews, provided feedback and mentorship to junior developers, and promoted best practices in coding standards, testing, and deployment procedures.</li>
               </List>
