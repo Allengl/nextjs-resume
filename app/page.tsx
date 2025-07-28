@@ -80,21 +80,28 @@ export default function Home() {
           </Education>
           <Title>Projects</Title>
           {/* <p>All projects preview,code,and live-view are available on <a className='text-[#aca3af]' href='https://deng.gl/'>deng.gl</a></p> */}
+          {/* <p>All projects preview,code,and live-view are available on <a className='text-[#aca3af]' href='https://deng.gl/'>deng.gl</a></p> */}
           <Projects>
             {/* <dt>
               <div>
-                <h3>Leafcoin - V2</h3>
+                <h3>Leafcoin</h3>
               </div>
-              <div className="minor">2023</div>
+              <div className='flex gap-2'>
+                <a href='https://react-leaf.deng.gl' className="underline cursor-pointer text-gray-400">Preview</a>
+                <a href='https://github.com/Allengl/react-leaf' className="underline cursor-pointer text-gray-400">Github</a>
+                <div className="minor">2023</div>
+              </div>
             </dt>
             <dd>
               <List>
-                <li>React, Typescript, UnoCSS, Custom Hooks, Data visualization</li>
-                <li>Second version of personal accounting PWA to record income and spending</li>
-                <li>State is managed using custom hooks</li>
+                <li>React, Typescript, Custom Hooks, Data visualization</li>
+                <li>Personal accounting PWA to record income and spending</li>
+                <li>State is managed using Zustand</li>
+                <li>Styled with UnoCSS</li>
+                <li>Mobile-first design</li>
               </List>
             </dd>
-            <dt>
+            {/* <dt>
               <div>
                 <h3>Leafcoin - V1</h3>
               </div>
@@ -108,11 +115,35 @@ export default function Home() {
                 <li>Mobile-first design</li>
               </List>
             </dd>
+            <dt> */}
+            <dt>
+              <div>
+                <h3>Flow jobs</h3>
+              </div>
+              <div className='flex gap-2'>
+                <a href='https://flowjobs.deng.gl/' className="underline cursor-pointer text-gray-400">Preview</a>
+                <a href='https://github.com/Allengl/nextjs-job-board' className="underline cursor-pointer text-gray-400">Github</a>
+                <div className="minor">2024</div>
+              </div>
+            </dt>
+            <dd>
+              <List>
+                <li>React,NextJS, Typescript, Tailwind CSS, Prisma.</li>
+                <li>Fully Functional amazing job board application</li>
+                <li>Form validation Using Zod & React Hook Form</li>
+                <li>Vercel Blob Storage and Vecel Postgres together with Prisma ORM</li>
+                <li>Deployed on Vercel</li>
+              </List>
+            </dd>
             <dt>
               <div>
                 <h3>Gulu UI</h3>
               </div>
-              <div className="minor">2021</div>
+              <div className='flex gap-2'>
+                <a href='https://gulu-ui.deng.gl/#/' className="underline cursor-pointer text-gray-400">Preview</a>
+                <a href='https://github.com/Allengl/gulu-UI' className="underline cursor-pointer text-gray-400">Github</a>
+                <div className="minor">2021</div>
+              </div>
             </dt>
             <dd>
               <List>
