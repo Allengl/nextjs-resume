@@ -118,43 +118,6 @@ export default function Home() {
             <dt> */}
             <dt>
               <div>
-                <h3>Flow jobs</h3>
-              </div>
-              <div className='flex gap-2'>
-                <a href='https://flowjobs.deng.gl/' className="underline cursor-pointer text-gray-400">Preview</a>
-                <a href='https://github.com/Allengl/nextjs-job-board' className="underline cursor-pointer text-gray-400">Github</a>
-                <div className="minor">2024</div>
-              </div>
-            </dt>
-            <dd>
-              <List>
-                <li>React,NextJS, Typescript, Tailwind CSS, Prisma.</li>
-                <li>Fully Functional amazing job board application</li>
-                <li>Form validation Using Zod & React Hook Form</li>
-                <li>Vercel Blob Storage and Vecel Postgres together with Prisma ORM</li>
-                <li>Deployed on Vercel</li>
-              </List>
-            </dd>
-            <dt>
-              <div>
-                <h3>Gulu UI</h3>
-              </div>
-              <div className='flex gap-2'>
-                <a href='https://gulu-ui.deng.gl/#/' className="underline cursor-pointer text-gray-400">Preview</a>
-                <a href='https://github.com/Allengl/gulu-UI' className="underline cursor-pointer text-gray-400">Github</a>
-                <div className="minor">2021</div>
-              </div>
-            </dt>
-            <dd>
-              <List>
-                <li>UI Library with Vue and Typescript.</li>
-                <li>Published on NPM and ready to use.</li>
-                <li>Utilized Vue3 composition API</li>
-                <li>Covers 4 basic components: switch,button,dialogue window and tabs</li>
-              </List>
-            </dd> */}
-            <dt>
-              <div>
                 <h3><a href="https://www.hand-china.com/p-hcopilot_aigc.html" target='_blank'>H-AI</a></h3>
               </div>
               <div className="minor">2022-2025</div>
@@ -166,6 +129,25 @@ export default function Home() {
                 <li>Integrated multiple large language models and optimized prompt strategies to improve response quality.</li>
                 <li>Developed file-related modules such as document upload, preview, and structured data extraction.</li>
                 <li>Collaborated closely with front-end, back-end, and DevOps teams to ensure seamless integration and system stability.</li>
+              </List>
+            </dd>
+            <dt>
+              <div>
+                <h3>Flow jobs</h3>
+              </div>
+              <div className='flex gap-2'>
+                <a href='https://nextjs-job-board-eta.vercel.app/' className="underline cursor-pointer text-gray-400">Preview</a>
+                <a href='https://github.com/Allengl/nextjs-job-board' className="underline cursor-pointer text-gray-400">Github</a>
+                <div className="minor">2024</div>
+              </div>
+            </dt>
+            <dd>
+              <List>
+                <li>React,NextJS, Typescript, Tailwind CSS, Prisma.</li>
+                <li>Fully Functional amazing job board application</li>
+                <li>Form validation Using Zod & React Hook Form</li>
+                <li>Vercel Blob Storage and Vecel Postgres together with Prisma ORM</li>
+                <li>Deployed on Vercel</li>
               </List>
             </dd>
           </Projects>
